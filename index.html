@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Lista de Tarefas</title>
+  </head>
+  <body>
+    <header>
+      <h1> 📌Lista de Tarefas</h1>
+    </header>
+
+    <section>
+      <form id="task-form">
+        <fieldset>
+          <div class="container">
+            <label for="task-input">Adicione suas Tarefas: </label>
+            <input id="task-input" type="text" name="name" required />
+            <button class="botao">Adicionar</button>
+          </div>
+        </fieldset>
+      </form>
+
+      <div class="listas">
+        <div class="container-tarefas">
+          <h3> 📝Tarefas</h3>
+          <ol id="task-list">
+            <li>Arrumar a Casa</li>
+            <li>Ir para Academia</li>
+            <li>Jogar lixo Fora</li>
+            <li>Fazer Compras</li>
+          </ol>
+        </div>
+
+        <div class="container-confirmacao">
+          <h3> ✅Concluídas </h3>
+          <ol id="task-confirmed"></ol>
+        </div>
+      </div>
+
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>

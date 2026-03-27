@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  background-color: #a041f2;
+  padding: 10px 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+header h1 {
+  text-align: center;
+  padding: 1rem;
+  color: black;
+  font-size: 40px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  padding: 60px;
+  width: 40%;
+  max-width: 500px;
+  border-radius: 10px;
+  background-color: #fff;
+  gap: 20px;
+  color: black;
+  max-width: 50vw;
+  font-size: 20px;
+}
+input {
+  width: 40%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+.container {
+  color: black;
+  max-width: 50vw;
+  font-size: 20px;
+}
+.listas {
+  display: flex;
+  gap: 10px;
+}
+
+.container-tarefas,
+.container-confirmacao {
+  width: 50%;
+}
+
+ol {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+.botao {
+  background-color: green;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px;
+  font-size: 14px;
+  margin: 13px;
+  border-radius: 5px;
+}
+.container-confirmacao button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 8px;
+  color: red;
+}
+@media (max-width: 768px) {
+  .listas {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  section {
+    width: 90%;
+    padding: 20px;
+  }
+
+  input {
+    width: 100%;
+  }
+}
+
+
+
+  
