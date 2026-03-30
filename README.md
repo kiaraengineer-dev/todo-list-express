@@ -4,9 +4,10 @@ Aplicação de lista de tarefas desenvolvida com HTML, CSS e JavaScript, permiti
 
 ##  Funcionalidades -
 
-- Adição de tarefas com data, mês e ano  
-- Remoção de tarefas  
-- Interface dinâmica com JavaScript  
+- Adicionar tarefas com data personalizada (dia, mês e ano)
+- Remover tarefas dinamicamente  
+- Interface dinâmica com JavaScript
+- Interface interativa com manipulação do DOM
 
 ##  Tecnologias -
 
